@@ -1,0 +1,11 @@
+---
+driver:
+  name: default
+platforms:
+  - name: "rocky9-molecule-vm"
+    template_path: "/home/adam/rocky-9-packer.qcow2"
+    os_id: "Rocky Linux 9"
+    ssh_user: ansible
+    disk_size: 32G
+    ram_mib: 4096
+    vcpus: 2

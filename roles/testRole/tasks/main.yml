@@ -1,0 +1,4 @@
+- name: Create test dir
+  file:
+    path: /tmp/testDir
+    state: directory
